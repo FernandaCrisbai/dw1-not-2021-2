@@ -3,6 +3,7 @@
 }
 body {
     font-size: 16px;              /* Tamanho da fonte */
+    background-color:thistle;
 }
 main {
     font-size: 18px;                /* Tamanho da fonte */
@@ -13,10 +14,19 @@ main {
     padding: 20px;                  /* Espaçamento interno */
 }
 h1 {                                    
-    text-shadow: 2px 2px rgba(128, 128, 128, 0.4);    /* Sombra do texto */
-}
+    text-shadow: 2px 2px rgba(128, 128, 128, 0.4);  /* Sombra do texto */
+    color:yellowgreen;
+    text-align: center;
+    font-size: 3.0rem;  
+   }
+
+
 figcaption {
-    font-style: italic;      /* Estilo da fonte */    
+   
+    font-style: italic;      /* Estilo da fonte */  
+    text-align: center;
+
+
 }
 ol[type="1"], ol:not([type]) {  /* Lista ordenada de primeiro nível */
     margin-left: 30%;       /* Margem esquerda */
@@ -28,3 +38,6 @@ iframe {                /* Elemento que contém o vídeo do Youtube */
     display: block;     /* Exibição em bloco */
     margin: 0 auto;     /* Centraliza horizontalmente */
 }
+h2 {
+    font-size: 1.5em;
+   }
